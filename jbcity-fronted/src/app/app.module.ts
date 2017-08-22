@@ -10,6 +10,7 @@ import {AppRoutingModule} from "./routing/app-routing.module";
 import {HttpModule} from "@angular/http";
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDataService} from "./in-memory-data/in-memory-data.service";
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 
@@ -19,7 +20,8 @@ import {InMemoryDataService} from "./in-memory-data/in-memory-data.service";
         Hero,
         HeroDetailComponent,
         HeroesComponent,
-        DashboardComponent
+        DashboardComponent,
+        HeroSearchComponent
     ],
     imports: [
         BrowserModule,

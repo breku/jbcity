@@ -13,6 +13,7 @@ import {Hero} from "../hero/hero.component";
                 </div>
             </div>
         </div>
+        <hero-search></hero-search>
     `,
     providers: [HeroService],
     styleUrls:['./dashboard.component.css']
